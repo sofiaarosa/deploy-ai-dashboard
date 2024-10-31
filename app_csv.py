@@ -8,7 +8,7 @@ from sklearn.metrics import accuracy_score
 from sklearn.ensemble import RandomForestClassifier
 
 # Carregar o modelo treinado
-model = joblib.load("modelo_iris_rf.pkl")
+model = joblib.load("../modelo_iris_rf.pkl")
 
 # Carregar o dataset Iris
 iris = load_iris()
